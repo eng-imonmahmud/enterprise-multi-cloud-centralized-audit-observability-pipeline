@@ -2,7 +2,7 @@
   <h1>🌐 Enterprise Multi-Cloud Centralized Audit & Observability Pipeline</h1>
   <p><i>A production-grade, highly secure, serverless pipeline bridging AWS and Google Cloud Platform for centralized audit logging and observability.</i></p>
   
-  [![Status](https://img.shields.io/badge/status-active-success.svg)](#)
+  [![Status](https://img.shields.io/badge/status-completed-blue.svg)](#)
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](#)
   [![Platform](https://img.shields.io/badge/Platform-AWS%20%7C%20GCP-orange)](#)
   [![Language](https://img.shields.io/badge/Language-Python%20%7C%20PowerShell-blue)](#)
@@ -45,6 +45,8 @@
 ---
 
 ## 🚀 Executive Summary
+
+> **Project Status:** This project is officially **closed** and **completed**. The production lifecycle has concluded, and all resources have been verified and documented.
 
 The **Enterprise Multi-Cloud Centralized Audit & Observability Pipeline** is a resilient, serverless architectural solution designed to seamlessly bridge telemetry and audit logs between Amazon Web Services (AWS) and Google Cloud Platform (GCP). It leverages AWS EventBridge and AWS Lambda to collect and forward telemetry data, which is securely transmitted via authenticated HTTPS requests to a Google Cloud Function (Gen 2). The GCP environment then centrally processes, structure-logs, and archives the telemetry into Cloud Storage for long-term retention and compliance. 
 
