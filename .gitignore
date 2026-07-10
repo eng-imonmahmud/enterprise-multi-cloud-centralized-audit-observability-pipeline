@@ -1,0 +1,57 @@
+# Secrets and Credentials
+*.json
+*.pem
+*.key
+.env
+.env.*
+secret*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+
+# Terraform (just in case)
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Node
+node_modules/
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Deployment artifacts
+lambda_package/
+function_source/
+deployment.zip
